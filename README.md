@@ -1,5 +1,9 @@
 # myapp
 
+<!--
+[![PyPI version](https://badge.fury.io/py/issh.svg)](https://pypi.org/project/issh/)
+-->
+
 ## Overview
 
 This example project template was generated from
@@ -8,6 +12,10 @@ https://github.com/DevDungeon/Python-App-Template
 The template aims to be a good starting place for
 any kind of app you want to build with Python including
 command-line and GUI applications.
+
+<!--
+![Works in Windows, Mac, Linux](screenshots/screenshot1.png)
+-->
 
 ## Documentation
 
@@ -54,7 +62,9 @@ python3 -m pip install myapp
 Once the package is installed, you can run it like this:
 
 ```bash
-python3 -m myapp
+python -m myapp
+# or
+python -m myapp --gui
 ```
 
 or like this, assuming your path is setup correctly
@@ -62,6 +72,8 @@ in your system or virtual environment:
 
 ```bash
 myapp
+# Or
+mygui
 ```
 
 ## Using this library in Python code

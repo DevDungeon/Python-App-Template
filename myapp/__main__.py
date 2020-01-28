@@ -51,7 +51,6 @@ def main_gui():
     sys.exit(app.exec_())
 
 
-
 def main_cli():
     """
     A simple curses CLI app
@@ -70,10 +69,6 @@ def main_cli():
         curses.endwin()
         sys.exit(0)
 
-    # Print file from resources directory
-
-    print()
-
     def main_wrapper(main_screen):
         signal(SIGINT, shutdown)
         signal(SIGTERM, shutdown)
@@ -91,6 +86,12 @@ def main_cli():
 
 if __name__ == '__main__':
     """
-    Default to the CLI main if run directly
+    Default to the CLI main if run directly, or possibly use a `--gui` flag to switch
     """
-    main_cli()
+    import sys
+
+    # Check if it was executed like: `python -m myapp --gui`
+    if len(sys.argv) > 1 and sys.argv[1] == '--gui':
+        main_gui()
+    else:  # Otherwise it was run like `python -m myapp`
+        main_cli()
