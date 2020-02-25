@@ -14,9 +14,9 @@ setup(
     description='My app',
     long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
-    url='https://github.com/DevDungeon',
-    author='DevDungeon',
-    author_email='nanodano@devdungeon.com',
+    url='https://github.com/',
+    author='',
+    author_email='',
     packages=['myapp'],
     # py_modules=[],
     # scripts=[  # entrypoints preferred
