@@ -14,6 +14,6 @@ Links
 =====
 
 * :ref:`search`
-* Source code: https://github.com/DevDungeon
-* Home page: https://www.devdungeon.com
-* Contact: nanodano@devdungeon.com
+* Source code: https://github.com/
+* Home page: 
+* Contact: 
