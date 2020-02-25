@@ -1,7 +1,7 @@
 # myapp
 
 <!--
-[![PyPI version](https://badge.fury.io/py/issh.svg)](https://pypi.org/project/issh/)
+[![PyPI version](https://badge.fury.io/py/MYAPP.svg)](https://pypi.org/project/MYAPP/)
 -->
 
 ## Overview
@@ -93,4 +93,4 @@ mylib.MyClass().run()
 
 ## Contact
 
-John Leon nanodano@devdungeon.com
+
